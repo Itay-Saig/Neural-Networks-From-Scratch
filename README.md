@@ -48,7 +48,7 @@ Presented below are the dimensions of weights, biases, and activation values acr
 ![](docs/parameters_shape.png)
 
 ## Experimental Results :chart_with_upwards_trend:
-Outlined below are the results of three experiments conducted with different combinations of batch normalization (on/off) and L2 normalization (on/off):
+Outlined below are the results of three experiments conducted with different combinations of batch normalization (on/off) and L2 normalization (on/off).
 
 | Exp. # | Batch Norm | L2 Norm | # of Epoches | # of Iterations | Train Accuracy | Val Accuracy | Test Accuracy | Train Cost | Val Cost | Time (sec) |
 |---|---|---|---|---|---|---|---|---|---|---|
