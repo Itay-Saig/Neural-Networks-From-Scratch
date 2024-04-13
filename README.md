@@ -10,12 +10,12 @@ Constructing a simple neural network "from scratch" to deepen comprehension of t
   * [Experimental Visualizations](#experimental-visualizations-art)
 
 ## Introduction :bookmark_tabs:
-This project aims to delve into the core mechanics of neural networks by constructing a simple neural network "from scratch".
+This project aims to delve into the core mechanics of neural networks by constructing a simple neural network from scratch.
 
 Neural networks are powerful tools for machine learning and artificial intelligence, but their inner workings can sometimes seem complex. By building a neural network from scratch, this project offers a unique opportunity to gain a deeper understanding of how these networks function at a fundamental level.
 
 ## Goals :dart:
-The primary objective is to construct a neural network from scratch to foster a profound comprehension of its underlying processes.
+The primary objective is to construct a neural network to foster a profound comprehension of its underlying processes.
 
 This involves:
 
@@ -57,7 +57,8 @@ Outlined below are the results of three experiments conducted with different com
 | 3 | False | True | 250 | 93,750 | 0.976 | 0.935 | 0.932 | 0.034 | 0.288 | 257 |
 
 ## Experimental Visualizations :art:
-
+Presented below are three graphs depicting the cost evolution of both the training and validation sets over the number of epochs for each of the conducted experiments.<br/><br/>
+   
 ![](docs/Exp1_Costs_with_Batchnorm_False_and_L2_False.png)
 
 **Fig. 1** | Experiment 1 with Batch Norm = False, L2 norm = False.
