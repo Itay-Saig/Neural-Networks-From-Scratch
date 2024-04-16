@@ -1,20 +1,20 @@
 # Neural-Networks-From-Scratch
 Constructing a simple neural network "from scratch" to deepen comprehension of the forward and backward propagation processes.
 
-## Table of Contents :clipboard:
-  * [Introduction](#Introduction-bookmark_tabs)
-  * [Goals](#goals-dart)
-  * [Data Description](#data-description-bar_chart)
-  * [Experimental Configuration](#experimental-configuration-gear)
-  * [Experimental Results](#experimental-results-chart_with_upwards_trend)
-  * [Experimental Visualizations](#experimental-visualizations-art)
+## :clipboard: Table of Contents
+  * [Introduction](#bookmark_tabs-introduction)
+  * [Goals](#dart-goals)
+  * [Data Description](#bar_chart-data-description)
+  * [Experimental Configuration](#gear-experimental-configuration)
+  * [Experimental Results](#chart_with_upwards_trend-experimental-results)
+  * [Experimental Visualizations](#art-experimental-visualizations)
 
-## Introduction :bookmark_tabs:
+## :bookmark_tabs: Introduction
 This project aims to delve into the core mechanics of neural networks by constructing a simple neural network from scratch.
 
 Neural networks are powerful tools for machine learning and artificial intelligence, but their inner workings can sometimes seem complex. By building a neural network from scratch, this project offers a unique opportunity to gain a deeper understanding of how these networks function at a fundamental level.
 
-## Goals :dart:
+## :dart: Goals
 The primary objective is to construct a neural network to foster a profound comprehension of its underlying processes.
 
 This involves:
@@ -25,12 +25,12 @@ This involves:
 - Integrating batch normalization and L2 normalization into the network architecture.
 - Analyzing and comparing performance, runtime, and training steps with and without the inclusion of batch normalization and L2 normalization.
 
-## Data Description :bar_chart:
+## :bar_chart: Data Description
 Network performance and evaluation were done on the 'MNIST' dataset, which is a collection of 28x28 pixel grayscale images of handwritten digits (0 through 9). The dataset contains 60,000 training images and 10,000 test images.
 
 ![](docs/MNIST_example.png)
 
-## Experimental Configuration :gear:
+## :gear: Experimental Configuration
 Validation set: The training set was split into a 80-20 ratio, with 48,000 samples for training and 12,000 for validation, randomly selected.
 
 -	The network consists of 4 layers (excluding the input layer) with respective sizes: 20, 7, 5, 10.
@@ -47,7 +47,7 @@ Presented below are the dimensions of weights, biases, and activation values acr
 
 ![](docs/parameters_shape.png)
 
-## Experimental Results :chart_with_upwards_trend:
+## :chart_with_upwards_trend: Experimental Results
 Outlined below are the results of three experiments conducted with different combinations of batch normalization (on/off) and L2 normalization (on/off).
 
 | Exp. # | Batch Norm | L2 Norm | # of Epoches | # of Iterations | Train Accuracy | Val Accuracy | Test Accuracy | Train Cost | Val Cost | Time (sec) |
@@ -56,7 +56,7 @@ Outlined below are the results of three experiments conducted with different com
 | 2 | True | False | 124 | 46,325 | 0.807 | 0.808 | 0.807 | 0.622 | 0.715 | 158 |
 | 3 | False | True | 250 | 93,750 | 0.976 | 0.935 | 0.932 | 0.034 | 0.288 | 257 |
 
-## Experimental Visualizations :art:
+## :art: Experimental Visualizations
 Presented below are three graphs depicting the cost evolution of both the training and validation sets over the number of epochs for each of the conducted experiments.<br/><br/>
    
 ![](docs/Exp1_Costs_with_Batchnorm_False_and_L2_False.png)
